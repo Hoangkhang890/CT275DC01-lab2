@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/../partials/header.php';
+require_once __DIR__ . '/../partials/footer.php';
 
 $has_access = ensure_admin_access();
 $success_message = null;
