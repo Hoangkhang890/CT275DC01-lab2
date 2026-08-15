@@ -2,11 +2,11 @@
 
 Học kỳ 3, Năm học: 2025-2026
 
-**Họ tên**: ...
+**Họ tên**: Lê Hoàng Khang
 
-**MSSV**: ...
+**MSSV**: DC25V7K013
 
-**Lớp HP**: ...
+**Lớp HP**: DC25V7K1
 
 
 
