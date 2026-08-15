@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/../partials/header.php';
+require_once __DIR__ . '/../partials/footer.php';
 
 $has_access = ensure_admin_access();
 $success_message = null;
@@ -44,7 +45,7 @@ if ($has_access && $_SERVER['REQUEST_METHOD'] === 'POST') {
 include __DIR__ . '/../partials/show_error.php';
 ?>
 
-
+<?php render_page_header(); ?>
 <?php if ($has_access): ?>
     <?php if (!empty($success_message)): ?>
         <p><?= html_escape($success_message) ?></p>
