@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/../partials/header.php';
+require_once __DIR__ . '/../partials/footer.php';
 
 $has_access = ensure_admin_access();
 $error_message = null;
@@ -25,6 +26,7 @@ if ($has_access) {
 include __DIR__ . '/../partials/show_error.php';
 ?>
 
+<?php render_page_header(); ?>
 <!--
     Đoạn mã HTML trình bày nội dung trang web.
 -->
